@@ -4,8 +4,7 @@ font-family: 'Indie Flower', cursive;
 body {
   font-family: 'Montserrat', sans-serif;
   color: rgb(20, 20, 20);
-  background: rgb(240, 240, 240);
-
+  background-image: linear-gradient(to right top, #cec0e5, #bbbae8, #a3b6ea, #85b2ea, #5dafe7);
 }
 
 h1 {
@@ -18,6 +17,7 @@ a {
 
 .page {
   padding: 0 3%;
+  margin-top: 10vh;
 }
 
 .licenses {
@@ -33,8 +33,8 @@ a {
   display: flex;
   justify-content: space-between;
   /*flex-wrap: wrap;*/
-  padding: 0px 2%;
-
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .inter {
@@ -46,13 +46,36 @@ a {
 }
 
 .story {
-  padding: 0 10px 10px 10px;
-  flex: 1 0 400px;
-  text-align: justify;
+  padding: 10px 25px ;
+  flex: 0 0 350px;
+  text-align: center;
+  background: white;
+  border-radius: 25px;
+  opacity: 0.8;
+
+}
+
+.story p {
+  font-size: 15px;
+}
+
+.story h2 {
+  text-align: center;
 }
 
 .about-me {
-  padding: 0 10px 10px 10px;
+  padding: 10px 25px;
   text-align: justify;
+  width: 60vw;
+  margin: 0 auto;
+  background: white;
+  border-radius: 25px;
+  opacity: 0.8;
 
+}
+
+.catchphrase {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
 }
