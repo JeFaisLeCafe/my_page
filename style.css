@@ -37,6 +37,13 @@ a {
   margin: 20px auto;
 }
 
+.my-skills {
+  display: flex;
+  justify-content: space-around;
+  /*flex-wrap: wrap;*/
+  width: 90vw;
+  margin: 20px auto;
+}
 .inter {
   /*margin-left: 25px;*/
 }
