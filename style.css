@@ -17,7 +17,7 @@ a {
 
 .page {
   padding: 0 3%;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 .licenses {
@@ -34,7 +34,7 @@ a {
   justify-content: space-between;
   /*flex-wrap: wrap;*/
   width: 90vw;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .inter {
@@ -48,11 +48,17 @@ a {
 .story {
   padding: 10px 25px ;
   flex: 0 0 350px;
-  text-align: center;
+  text-align: justify;
   background: white;
   border-radius: 25px;
   opacity: 0.8;
+  box-shadow: 2px 2px 13px 2px;
+  transition-duration: 0.5s;
+}
 
+.story:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
 
 .story p {
@@ -71,7 +77,15 @@ a {
   background: white;
   border-radius: 25px;
   opacity: 0.8;
+  box-shadow: 2px 2px 13px 2px;
+  transition-duration: 0.5s;
 
+}
+
+
+.about-me:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
 
 .catchphrase {
@@ -80,6 +94,14 @@ a {
   font-size: 18px;
 }
 .badge {
-  width: 120px;
+  width: 140px;
   border-radius: 50%;
+  box-shadow: 2px 2px 13px 2px;
+  transition-duration: 0.5s;
+
+}
+
+.badge:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
