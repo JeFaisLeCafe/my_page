@@ -4,7 +4,7 @@ font-family: 'Indie Flower', cursive;
 body {
   font-family: 'Montserrat', sans-serif;
   color: rgb(20, 20, 20);
-  background-image: linear-gradient(to right top, #cec0e5, #bbbae8, #a3b6ea, #85b2ea, #5dafe7);
+  background-color: rgb(245, 245, 245);
 }
 
 h1 {
