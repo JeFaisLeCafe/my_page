@@ -79,3 +79,7 @@ a {
   font-weight: bolder;
   font-size: 18px;
 }
+.badge {
+  width: 120px;
+  border-radius: 50%;
+}
