@@ -33,7 +33,8 @@ a {
   display: flex;
   justify-content: space-between;
   /*flex-wrap: wrap;*/
-  width: 80vw;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .inter {
@@ -45,11 +46,13 @@ a {
 }
 
 .story {
-  padding: 0 10px 10px 10px;
-  flex: 1 0 400px;
-  text-align: justify;
+  padding: 10px 25px ;
+  flex: 0 0 350px;
+  text-align: center;
   background: white;
   border-radius: 25px;
+  opacity: 0.8;
+
 }
 
 .story p {
