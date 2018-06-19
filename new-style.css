@@ -46,15 +46,24 @@ a{
 }
 .page {
   position: relative;
+  width: 100%;
 }
 .big-pic{
-  height: 100vh;
+  height: 100%;
+
 }
 .catch {
   height: 100%;
   display: flex;
+  background-color: white;
 }
 .left {
+  flex: 1 0;
+  width: 50%;
+  align-self: center;
+  max-height: 100vh;
+  display: inline-block;
+  overflow: hidden;
 }
 .right {
   background-color: white;
