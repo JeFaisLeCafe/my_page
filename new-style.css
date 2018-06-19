@@ -5,33 +5,47 @@ body {
   margin: 0;
 }
 .badge {
+  width: 15%;
+  border-radius: 50%;
+  border: 2px solid white;
+  z-index: 2;
+  box-shadow: 0 0 4px 0px;
+}
+.intro {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-card {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.big-card p {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.page {
+  position: relative;
 
 }
 .catch {
   height: 100%;
-  position: relative;
   display: flex;
-/*  background-image: url('cool-background.png')
-*/
 }
 .left {
 }
 /*////////*/
 html, body { height: 100% }
 
-body {
-  display: flex;
-  align-items: center;
-  background-color: #f9f9f9;
-}
-
-.container {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
-}
 
 .background {
   position: absolute;
