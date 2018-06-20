@@ -18,6 +18,20 @@ a{
   z-index: 2;
   box-shadow: 0 0 4px 0px;
 }
+.card {
+  background-color: white;
+  width: 40%;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 0px grey;
+  line-height: 1.6em;
+}
+.inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .intro {
   height: 100vh;
   width: 100%;
@@ -33,7 +47,8 @@ a{
   border-radius: 2px;
 }
 .center {
-
+  text-align: center;
+  justify-content: center;
 }
 .big-card {
   background-color: white;
@@ -110,6 +125,7 @@ a{
   flex: 1 0;
   text-align: justify;
   line-height: 1.5em;
+  margin: 0;
 }
 .story h2 {
   text-align: center;
@@ -129,4 +145,8 @@ a{
 .footer {
   background-color: grey;
   padding: 1%;
+}
+.card-pic img {
+  width: 100%;
+  height: auto;
 }
