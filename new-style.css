@@ -12,7 +12,7 @@ a{
   text-decoration: none;
 }
 .badge {
-  width: 15%;
+  width: 20%;
   border-radius: 50%;
   border: 2px solid white;
   z-index: 2;
@@ -125,4 +125,8 @@ a{
 
 .pic {
   flex: 1 0;
+}
+.footer {
+  background-color: grey;
+  padding: 1%;
 }
