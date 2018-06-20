@@ -143,10 +143,19 @@ a{
   flex: 1 0;
 }
 .footer {
-  background-color: grey;
+  background-color: rgba(200, 200, 200, 0.8);
   padding: 1%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .card-pic img {
   width: 100%;
   height: auto;
+}
+.licenses {
+  margin: 16px 30px;
+}
+.my-skills {
+  height: 100%;
 }
