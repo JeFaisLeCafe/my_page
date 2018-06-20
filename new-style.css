@@ -4,6 +4,9 @@ body {
   background-color: rgb(245, 245, 245);
   margin: 0;
 }
+p {
+  font-size: 16px;
+}
 a{
   color: #E54B4B;
   text-decoration: none;
@@ -76,8 +79,18 @@ a{
   position: relative;
 }
 .meet{
-  text-align: -webkit-left;
+  text-align: justify;
   padding: 0 10%;
+}
+.about-me {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.6em;
+}
+.catchphrase {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
 }
 .background {
   position: absolute;
@@ -86,4 +99,30 @@ a{
   left: 0;
   right: 0;
   z-index: -1;
+}
+.my-background {
+  padding: 2% 3%;
+  display: flex;
+  background-color: rgba(250, 250, 250, 0.7);
+}
+.story {
+  padding: 1% 3%;
+  flex: 1 0;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.story h2 {
+  text-align: center;
+  line-height: 1.6em;
+}
+.story:first-child {
+  border-right: 1px solid darkgrey;
+  padding: 1% 3% 1% 1%;
+}
+.story:last-child {
+  padding: 1% 1% 1% 3%;
+}
+
+.pic {
+  flex: 1 0;
 }
